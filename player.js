@@ -186,9 +186,10 @@ function Player() {
         if (left) {
             angle -= 1.4;
         }
-        if (right) {
-            angle += 1.4;
-        }
+        // TODO Erase left right togglers
+        // if (right) {
+        //     angle += 1.4;
+        // }
         // i++
         memo.push({
             kX: oldX,
